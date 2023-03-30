@@ -1,91 +1,20 @@
 //
-//  ContentView.swift
+//  View.swift
 //  Powling
 //
-//  Created by vit.pic on 28/03/23.
+//  Created by vit.pic on 30/03/23.
 //
 
+import Foundation
 import SwiftUI
-import CoreData
-import UIKit
-
-struct ContentView: View {
-   
-    var body: some View {
-        ZStack(alignment: .center){
-            Background()
-            VStack(spacing: 150){
-                Spacer()
-                MainTitle()
-            
-                ZStack (alignment: .bottom){
-                    VStack(spacing: 50) {
-                        
-                        Mode_1()
-                        Mode_2()
-                        
-                        VStack {
-                            
-                            SpacerPrinter(howManySpacers: 6)
-                            
-                            HStack() {
-                                
-                                SpacerPrinter(howManySpacers: 2)
-                                
-                                Label_1()
-                                
-                                SpacerPrinter(howManySpacers: 2)
-
-                                Settings()
-                                
-                                SpacerPrinter(howManySpacers: 2)
-
-                            }
-                            Spacer()
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
 
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainTitleView()
     }
 }
 
-public extension View {
-    func fullBackground(imageName: String) -> some View {
-       return background(
-                Image(imageName)
-                    .resizable()
-                    .scaledToFill()
-                    .edgesIgnoringSafeArea(.all)
-       )
-    }
-}
-
-struct StrokeText: View {
-    let text: String
-    let width: CGFloat
-    let color: Color
-
-    var body: some View {
-        ZStack{
-            ZStack{
-                Text(text).offset(x:  width, y:  width)
-                Text(text).offset(x: -width, y: -width)
-                Text(text).offset(x: -width, y:  width)
-                Text(text).offset(x:  width, y: -width)
-            }
-            .foregroundColor(color)
-            Text(text)
-        }
-    }
-}
 
 struct Background: View {
     var body: some View {
@@ -158,8 +87,9 @@ struct SpacerPrinter: View {
 
 
 struct Settings: View {
+    @State private var showingSheet = false
     var body: some View {
-        Button(action: {}){
+        Button(action: {showingSheet.toggle()}){
             ZStack{
                 Image(systemName: "gearshape.fill")
                     .symbolRenderingMode(.hierarchical)
@@ -171,13 +101,16 @@ struct Settings: View {
                     .foregroundColor(.red)
                     .font(.system(size: 30))
             }
+        }.sheet(isPresented: $showingSheet) {
+            SettingsView()
         }
     }
 }
 
-struct Label_1: View {
+struct Rules: View {
+    @State private var showingSheet = false
     var body: some View {
-        Button(action: {}){
+        Button(action: {showingSheet.toggle()}){
             StrokeText(text: "RULES", width: 1.5, color: .red)
                 .foregroundColor(.white)
                 .font(
@@ -187,6 +120,9 @@ struct Label_1: View {
                         design: .rounded
                     )
                 ).shadow(radius: 3)
+        }.sheet(isPresented: $showingSheet) {
+            RulesView()
         }
     }
 }
+

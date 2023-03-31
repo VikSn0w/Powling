@@ -9,25 +9,22 @@ import SpriteKit
 import SwiftUI
 
 struct GameView: View {
-    let skView = SKView()
-
-    init() {
-        if let scene = SKScene(fileNamed: "GameScene") {
-            skView.presentScene(scene)
-        }
+    var scene: SKScene {
+        let scene = SKScene(fileNamed: "GameScene")
+        scene!.size = CGSize(width: 750, height: 1334)
+        scene?.scaleMode = .aspectFit
+        return scene!
     }
-
+    
+    
     var body: some View {
+        SpriteView(scene: scene)
+            .edgesIgnoringSafeArea(.all)
+    }
+}
+
+struct GameView_Previews: PreviewProvider {
+    static var previews: some View {
         GameView()
-            .frame(width: 300, height: 600)
     }
 }
-
-struct SKSceneView: UIViewRepresentable {
-    func makeUIView(context: Context) -> SKView {
-        return GameView().skView
-    }
-
-    func updateUIView(_ uiView: SKView, context: Context) {}
-}
-

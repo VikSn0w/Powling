@@ -43,34 +43,30 @@ struct MainTitle: View {
 
 struct Mode_1: View {
     var body: some View {
-        Button(action: {}){
-            StrokeText(text: "TRAINING MODE", width: 1.5, color: .red)
-                .foregroundColor(.white)
-                .font(
-                    .system(
-                        size: 30,
-                        weight: .semibold,
-                        design: .rounded
-                    )
+        StrokeText(text: "TRAINING MODE", width: 1.5, color: .red)
+            .foregroundColor(.white)
+            .font(
+                .system(
+                    size: 30,
+                    weight: .semibold,
+                    design: .rounded
                 )
+            )
             .shadow(radius: 3)
-        }
     }
 }
 
 struct Mode_2: View {
     var body: some View {
-        Button(action: {}){
-            StrokeText(text: "MULTIPLAYER", width: 1.5, color: .red)
-                .foregroundColor(.white)
-                .font(
-                    .system(
-                        size: 30,
-                        weight: .semibold,
-                        design: .rounded
-                    )
-                ).shadow(radius: 3)
-        }
+        StrokeText(text: "MULTIPLAYER", width: 1.5, color: .red)
+            .foregroundColor(.white)
+            .font(
+                .system(
+                    size: 30,
+                    weight: .semibold,
+                    design: .rounded
+                )
+            ).shadow(radius: 3)
     }
 }
 

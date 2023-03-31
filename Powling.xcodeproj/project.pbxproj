@@ -15,6 +15,8 @@
 		B7B31EDE29D5D7D900DDA642 /* CustomComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B31EDD29D5D7D900DDA642 /* CustomComponents.swift */; };
 		B7B31EE229D5E84F00DDA642 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B31EE129D5E84F00DDA642 /* GameView.swift */; };
 		B7B31EE529D5E8C600DDA642 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7B31EE429D5E8C600DDA642 /* GameScene.sks */; };
+		B7B31EE729D6336000DDA642 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B31EE629D6336000DDA642 /* Test.swift */; };
+		B7B31EE929D637A100DDA642 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B31EE829D637A100DDA642 /* GameScene.swift */; };
 		B7D82B0E29D33800006E811E /* PowlingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D82B0D29D33800006E811E /* PowlingApp.swift */; };
 		B7D82B1029D33800006E811E /* MainTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D82B0F29D33800006E811E /* MainTitleView.swift */; };
 		B7D82B1229D33801006E811E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D82B1129D33801006E811E /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 		B7B31EDD29D5D7D900DDA642 /* CustomComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponents.swift; sourceTree = "<group>"; };
 		B7B31EE129D5E84F00DDA642 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		B7B31EE429D5E8C600DDA642 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B7B31EE629D6336000DDA642 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		B7B31EE829D637A100DDA642 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		B7D82B0A29D33800006E811E /* Powling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Powling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D82B0D29D33800006E811E /* PowlingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowlingApp.swift; sourceTree = "<group>"; };
 		B7D82B0F29D33800006E811E /* MainTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTitleView.swift; sourceTree = "<group>"; };
@@ -78,6 +82,7 @@
 				B7B31ED229D5D3E800DDA642 /* SettingsView.swift */,
 				B7B31EDB29D5D75E00DDA642 /* RulesView.swift */,
 				B7D82B0F29D33800006E811E /* MainTitleView.swift */,
+				B7B31EE629D6336000DDA642 /* Test.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -86,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				B7B31EE129D5E84F00DDA642 /* GameView.swift */,
+				B7B31EE829D637A100DDA642 /* GameScene.swift */,
 				B7B31EE429D5E8C600DDA642 /* GameScene.sks */,
 			);
 			path = GameView;
@@ -202,11 +208,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B31EE929D637A100DDA642 /* GameScene.swift in Sources */,
 				B7B31ED829D5D4B000DDA642 /* MainTitleComponents.swift in Sources */,
 				B7B31ED329D5D3E800DDA642 /* SettingsView.swift in Sources */,
 				B7B31ED629D5D46600DDA642 /* ViewExtensions.swift in Sources */,
 				B7D82B1A29D33801006E811E /* Powling.xcdatamodeld in Sources */,
 				B7B31EDE29D5D7D900DDA642 /* CustomComponents.swift in Sources */,
+				B7B31EE729D6336000DDA642 /* Test.swift in Sources */,
 				B7B31EE229D5E84F00DDA642 /* GameView.swift in Sources */,
 				B7D82B1729D33801006E811E /* Persistence.swift in Sources */,
 				B7B31EDC29D5D75E00DDA642 /* RulesView.swift in Sources */,

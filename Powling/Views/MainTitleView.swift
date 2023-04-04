@@ -12,7 +12,7 @@ import UIKit
 struct MainTitleView: View {
     private let rotationChangePublisher = NotificationCenter.default
             .publisher(for: UIDevice.orientationDidChangeNotification)
-        @State private var isOrientationLocked = false
+        @State private var isOrientationLocked = true
     
     var body: some View {
         NavigationView() {
@@ -21,14 +21,13 @@ struct MainTitleView: View {
                     VStack(spacing: 150){
                         Spacer()
                         MainTitle()
-                    
                         ZStack (alignment: .bottom){
                             VStack(spacing: 50) {
-                                NavigationLink(destination: GameView()) {
+                                NavigationLink(destination: TrainingModeView()) {
                                     Mode_1()
                                 }
 
-                                NavigationLink(destination: Test()) {
+                                NavigationLink(destination: TrainingModeView()) {
                                     Mode_2()
                                 }
                                 
@@ -55,10 +54,6 @@ struct MainTitleView: View {
                         }
                     }
                 }.onReceive(rotationChangePublisher) { _ in
-                    // This is called when there is a orientation change
-                    // You can set back the orientation to the one you like even
-                    // if the user has turned around their phone to use another
-                    // orientation.
                     if isOrientationLocked {
                         changeOrientation(to: .portrait)
                 }
@@ -69,3 +64,8 @@ struct MainTitleView: View {
 
 
 
+struct MainTitleView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainTitleView()
+    }
+}

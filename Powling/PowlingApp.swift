@@ -9,8 +9,9 @@ import SwiftUI
 import UIKit
 
 @main
+
 struct PowlingApp: App {
-    @UIApplicationDelegateAdaptor private var appDelegate: AppDelegate
+//    @UIApplicationDelegateAdaptor private var appDelegate: AppDelegate
     var body: some Scene {
         WindowGroup {
             MainTitleView()

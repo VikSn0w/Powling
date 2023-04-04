@@ -1,0 +1,22 @@
+[
+  {
+    "libraryIdentifier" : "18b881faf940b2545bf20c3f67fa725c",
+    "format" : "model",
+    "displayName" : "Bowling_Pin.usdz"
+  },
+  {
+    "libraryIdentifier" : "07d26dbb6fb60cf87dee131b43a8e707",
+    "format" : "model",
+    "displayName" : "Bowling_Balls.usdz"
+  },
+  {
+    "libraryIdentifier" : "cc8e500d67fb5fdd460e9c1ecd6c1598",
+    "format" : "model",
+    "displayName" : "Bowling_ball.usdz"
+  },
+  {
+    "libraryIdentifier" : "1aaf70ed17b93bac8da25ced3e5f4ac6",
+    "format" : "model",
+    "displayName" : "Bowling_Pin-2.usdz"
+  }
+]

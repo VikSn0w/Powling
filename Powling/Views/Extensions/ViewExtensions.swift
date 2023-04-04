@@ -25,16 +25,16 @@ public extension View {
     }
 }
 
-public extension View {
-    @ViewBuilder
-    func forceRotation(orientation: UIInterfaceOrientationMask) -> some View {
-        self.onAppear() {
-            AppDelegate.orientationLock = orientation
-        }
-        // Reset orientation to previous setting
-        let currentOrientation = AppDelegate.orientationLock
-        self.onDisappear() {
-            AppDelegate.orientationLock = currentOrientation
-        }
-    }
-}
+//public extension View {
+//    @ViewBuilder
+//    func forceRotation(orientation: UIInterfaceOrientationMask) -> some View {
+//        self.onAppear() {
+//            AppDelegate.orientationLock = orientation
+//        }
+//        // Reset orientation to previous setting
+//        let currentOrientation = AppDelegate.orientationLock
+//        self.onDisappear() {
+//            AppDelegate.orientationLock = currentOrientation
+//        }
+//    }
+//}

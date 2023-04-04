@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7401C5429DAE997008F6763 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = B7401C5229DAE997008F6763 /* Experience.rcproject */; };
+		B7401C5529DAE997008F6763 /* ClassicModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7401C5329DAE997008F6763 /* ClassicModeView.swift */; };
+		B7401C5729DB1D63008F6763 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7401C5629DB1D63008F6763 /* PlaceholderView.swift */; };
+		B7401C5929DB1E17008F6763 /* TrainingModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7401C5829DB1E17008F6763 /* TrainingModeView.swift */; };
+		B7401C5B29DB1F21008F6763 /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7401C5A29DB1F21008F6763 /* SharedComponents.swift */; };
+		B7401C5D29DB1F8D008F6763 /* TrainingModeComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7401C5C29DB1F8D008F6763 /* TrainingModeComponents.swift */; };
 		B7B31ED129D5C92800DDA642 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B31ED029D5C92800DDA642 /* AppDelegate.swift */; };
 		B7B31ED329D5D3E800DDA642 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B31ED229D5D3E800DDA642 /* SettingsView.swift */; };
 		B7B31ED629D5D46600DDA642 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B31ED529D5D46600DDA642 /* ViewExtensions.swift */; };
 		B7B31ED829D5D4B000DDA642 /* MainTitleComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B31ED729D5D4B000DDA642 /* MainTitleComponents.swift */; };
 		B7B31EDC29D5D75E00DDA642 /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B31EDB29D5D75E00DDA642 /* RulesView.swift */; };
 		B7B31EDE29D5D7D900DDA642 /* CustomComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B31EDD29D5D7D900DDA642 /* CustomComponents.swift */; };
-		B7B31EE229D5E84F00DDA642 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B31EE129D5E84F00DDA642 /* GameView.swift */; };
-		B7B31EE529D5E8C600DDA642 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B7B31EE429D5E8C600DDA642 /* GameScene.sks */; };
-		B7B31EE729D6336000DDA642 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B31EE629D6336000DDA642 /* Test.swift */; };
-		B7B31EE929D637A100DDA642 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B31EE829D637A100DDA642 /* GameScene.swift */; };
 		B7D82B0E29D33800006E811E /* PowlingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D82B0D29D33800006E811E /* PowlingApp.swift */; };
 		B7D82B1029D33800006E811E /* MainTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D82B0F29D33800006E811E /* MainTitleView.swift */; };
 		B7D82B1229D33801006E811E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D82B1129D33801006E811E /* Assets.xcassets */; };
@@ -26,16 +28,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B7401C5229DAE997008F6763 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		B7401C5329DAE997008F6763 /* ClassicModeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicModeView.swift; sourceTree = "<group>"; };
+		B7401C5629DB1D63008F6763 /* PlaceholderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceholderView.swift; path = ../../../../../.Trash/PlaceholderView.swift; sourceTree = "<group>"; };
+		B7401C5829DB1E17008F6763 /* TrainingModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingModeView.swift; sourceTree = "<group>"; };
+		B7401C5A29DB1F21008F6763 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		B7401C5C29DB1F8D008F6763 /* TrainingModeComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingModeComponents.swift; sourceTree = "<group>"; };
 		B7B31ED029D5C92800DDA642 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7B31ED229D5D3E800DDA642 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B7B31ED529D5D46600DDA642 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
 		B7B31ED729D5D4B000DDA642 /* MainTitleComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTitleComponents.swift; sourceTree = "<group>"; };
 		B7B31EDB29D5D75E00DDA642 /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
 		B7B31EDD29D5D7D900DDA642 /* CustomComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponents.swift; sourceTree = "<group>"; };
-		B7B31EE129D5E84F00DDA642 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
-		B7B31EE429D5E8C600DDA642 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		B7B31EE629D6336000DDA642 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		B7B31EE829D637A100DDA642 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		B7D82B0A29D33800006E811E /* Powling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Powling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D82B0D29D33800006E811E /* PowlingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowlingApp.swift; sourceTree = "<group>"; };
 		B7D82B0F29D33800006E811E /* MainTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTitleView.swift; sourceTree = "<group>"; };
@@ -68,7 +72,10 @@
 		B7B31ED929D5D4B300DDA642 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				B7B31EDD29D5D7D900DDA642 /* CustomComponents.swift */,
+				B7401C5A29DB1F21008F6763 /* SharedComponents.swift */,
 				B7B31ED729D5D4B000DDA642 /* MainTitleComponents.swift */,
+				B7401C5C29DB1F8D008F6763 /* TrainingModeComponents.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -76,25 +83,25 @@
 		B7B31EDA29D5D53900DDA642 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B7B31EE329D5E8A900DDA642 /* GameView */,
 				B7B31ED429D5D45500DDA642 /* Extensions */,
 				B7B31ED929D5D4B300DDA642 /* Components */,
 				B7B31ED229D5D3E800DDA642 /* SettingsView.swift */,
 				B7B31EDB29D5D75E00DDA642 /* RulesView.swift */,
 				B7D82B0F29D33800006E811E /* MainTitleView.swift */,
-				B7B31EE629D6336000DDA642 /* Test.swift */,
+				B7401C5629DB1D63008F6763 /* PlaceholderView.swift */,
+				B7401C5829DB1E17008F6763 /* TrainingModeView.swift */,
+				B7B31EE329D5E8A900DDA642 /* ClassicModeView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		B7B31EE329D5E8A900DDA642 /* GameView */ = {
+		B7B31EE329D5E8A900DDA642 /* ClassicModeView */ = {
 			isa = PBXGroup;
 			children = (
-				B7B31EE129D5E84F00DDA642 /* GameView.swift */,
-				B7B31EE829D637A100DDA642 /* GameScene.swift */,
-				B7B31EE429D5E8C600DDA642 /* GameScene.sks */,
+				B7401C5229DAE997008F6763 /* Experience.rcproject */,
+				B7401C5329DAE997008F6763 /* ClassicModeView.swift */,
 			);
-			path = GameView;
+			path = ClassicModeView;
 			sourceTree = "<group>";
 		};
 		B7D82B0129D33800006E811E = {
@@ -119,7 +126,6 @@
 				B7B31EDA29D5D53900DDA642 /* Views */,
 				B7B31ED029D5C92800DDA642 /* AppDelegate.swift */,
 				B7D82B0D29D33800006E811E /* PowlingApp.swift */,
-				B7B31EDD29D5D7D900DDA642 /* CustomComponents.swift */,
 				B7D82B1129D33801006E811E /* Assets.xcassets */,
 				B7D82B1629D33801006E811E /* Persistence.swift */,
 				B7D82B1B29D33801006E811E /* Info.plist */,
@@ -195,7 +201,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7B31EE529D5E8C600DDA642 /* GameScene.sks in Resources */,
 				B7D82B1529D33801006E811E /* Preview Assets.xcassets in Resources */,
 				B7D82B1229D33801006E811E /* Assets.xcassets in Resources */,
 			);
@@ -208,18 +213,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7B31EE929D637A100DDA642 /* GameScene.swift in Sources */,
 				B7B31ED829D5D4B000DDA642 /* MainTitleComponents.swift in Sources */,
+				B7401C5929DB1E17008F6763 /* TrainingModeView.swift in Sources */,
 				B7B31ED329D5D3E800DDA642 /* SettingsView.swift in Sources */,
+				B7401C5429DAE997008F6763 /* Experience.rcproject in Sources */,
 				B7B31ED629D5D46600DDA642 /* ViewExtensions.swift in Sources */,
 				B7D82B1A29D33801006E811E /* Powling.xcdatamodeld in Sources */,
 				B7B31EDE29D5D7D900DDA642 /* CustomComponents.swift in Sources */,
-				B7B31EE729D6336000DDA642 /* Test.swift in Sources */,
-				B7B31EE229D5E84F00DDA642 /* GameView.swift in Sources */,
+				B7401C5729DB1D63008F6763 /* PlaceholderView.swift in Sources */,
 				B7D82B1729D33801006E811E /* Persistence.swift in Sources */,
+				B7401C5B29DB1F21008F6763 /* SharedComponents.swift in Sources */,
 				B7B31EDC29D5D75E00DDA642 /* RulesView.swift in Sources */,
 				B7D82B1029D33800006E811E /* MainTitleView.swift in Sources */,
+				B7401C5529DAE997008F6763 /* ClassicModeView.swift in Sources */,
 				B7B31ED129D5C92800DDA642 /* AppDelegate.swift in Sources */,
+				B7401C5D29DB1F8D008F6763 /* TrainingModeComponents.swift in Sources */,
 				B7D82B0E29D33800006E811E /* PowlingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,10 +361,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Powling/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -382,10 +391,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Powling/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

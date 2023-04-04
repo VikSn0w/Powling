@@ -9,23 +9,6 @@ import Foundation
 import SwiftUI
 
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        MainTitleView()
-    }
-}
-
-
-struct Background: View {
-    var body: some View {
-        Image("Background_Title")
-            .resizable()
-            .scaledToFill()
-            .edgesIgnoringSafeArea(.all)
-            .frame(width: UIScreen.main.bounds.width+20, height: UIScreen.main.bounds.height)
-    }
-}
-
 struct MainTitle: View {
     var body: some View {
         StrokeText(text: "POWLING", width: 3, color: .red)
@@ -71,15 +54,6 @@ struct Mode_2: View {
 }
 
 
-struct SpacerPrinter: View {
-    public var howManySpacers: Int = 0
-    var body: some View {
-        ForEach(0...self.howManySpacers, id: \.self){_ in
-            Spacer()
-
-        }
-    }
-}
 
 
 struct Settings: View {

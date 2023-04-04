@@ -13,7 +13,10 @@ struct ClassicModeView : View {
         var ArView = ARViewContainer()
         VStack{
             ArView.edgesIgnoringSafeArea(.all)
-            Button(action: {ArView = ARViewContainer()}){
+            Button(action: {
+                ArView = ARViewContainer()
+                
+            }){
                 Text("Reset")
             }
         }.navigationBarBackButtonHidden(true)
@@ -35,6 +38,7 @@ struct ARViewContainer: UIViewRepresentable {
         let bowlingAnchor = try! Experience.loadBowling()
         arView.scene.anchors.append(bowlingAnchor)
         
+        let behavior = Experience.loadBowling().
         
         return arView
     }

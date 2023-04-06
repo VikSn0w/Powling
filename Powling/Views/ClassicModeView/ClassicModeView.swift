@@ -1,10 +1,4 @@
-//
-//  ContentView.swift
-//  Powling_AR
-//
-//  Created by vit.pic on 01/04/23.
-//
-
+import UIKit
 import SwiftUI
 import RealityKit
 
@@ -38,7 +32,6 @@ struct ARViewContainer: UIViewRepresentable {
         let bowlingAnchor = try! Experience.loadBowling()
         arView.scene.anchors.append(bowlingAnchor)
         
-        let behavior = Experience.loadBowling().
         
         return arView
     }

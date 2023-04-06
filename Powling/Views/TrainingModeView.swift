@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TrainingModeView: View {
+    @State var test: Bool
 
     var body: some View {
         ZStack(alignment: .center){
@@ -35,10 +36,10 @@ struct TrainingModeView: View {
 }
 
 
-struct TrainingModeView_Previews: PreviewProvider {
-    static var previews: some View {
-        TrainingModeView()
-    }
-}
+//struct TrainingModeView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        TrainingModeView()
+//    }
+//}
 
 

@@ -13,7 +13,8 @@ struct MainTitleView: View {
     private let rotationChangePublisher = NotificationCenter.default
             .publisher(for: UIDevice.orientationDidChangeNotification)
         @State private var isOrientationLocked = true
-    
+    @State var test: Bool = false
+
     var body: some View {
         NavigationView() {
             ZStack(alignment: .center){
@@ -23,11 +24,11 @@ struct MainTitleView: View {
                         MainTitle()
                         ZStack (alignment: .bottom){
                             VStack(spacing: 50) {
-                                NavigationLink(destination: TrainingModeView()) {
+                                NavigationLink(destination: TrainingModeView(test: test)) {
                                     Mode_1()
                                 }
 
-                                NavigationLink(destination: TrainingModeView()) {
+                                NavigationLink(destination: TrainingModeView(test: test)) {
                                     Mode_2()
                                 }
                                 
